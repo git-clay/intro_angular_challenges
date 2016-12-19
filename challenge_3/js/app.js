@@ -17,8 +17,9 @@ function loanController($scope){
 	this.month = function(val){
 		$scope.accrued_interest= accrued_interest(val,this.amount,this.apr);
 		this.total_balance=total_balance(this.accrued_interest);
-	};
 
+
+	};
 
 }
 

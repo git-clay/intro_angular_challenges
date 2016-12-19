@@ -54,8 +54,8 @@ function ClassController($scope){
 		firstName:'Clay'
 	}
 	];
-	$scope.startDate = new Date(10,31,2016)
-	$scope.endDate ='02/02/2017';
+	$scope.startDate = new Date(10,31,2016);
+	$scope.endDate = new Date(02/02/2017);
 	$scope.daysRemaining = function(){
 
 	};
